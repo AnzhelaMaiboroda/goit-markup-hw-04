@@ -274,6 +274,16 @@ a {
     letter-spacing: 0.02em;
 }
 
+.team-list-icon {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 232px;
+    height: 40px;
+}
+
 /* section four */
 
 .section-our-portfolio {
@@ -332,4 +342,29 @@ a {
     color: #f4f4fd;
     max-width: 264px;
 
+}
+
+.media-container {
+    width: 208px;
+    height: 80px;
+    margin: auto;
+}
+
+.footer-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-list-icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
+    padding-top: 16px;
 }
