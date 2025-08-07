@@ -275,6 +275,7 @@ a {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-list-neme {
@@ -307,6 +308,7 @@ a {
     justify-content: center;
     flex-direction: row;
     height: 40px;
+    transition:
 }
 
 .team-icon {
@@ -419,6 +421,7 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    background-color: #4d5ae5;
 }
 
 .logo-part-header {
