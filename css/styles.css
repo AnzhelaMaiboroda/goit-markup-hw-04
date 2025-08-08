@@ -331,22 +331,10 @@ a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-:root {
-    --brand-color: #4d5ae5;
-    --brand-hover: #404bbf;
-    --brand-accent: #31d0aa;
-}
-
-
-.team-icon-link:hover {
+.team-icon-link:hover,
+.team-icon-link:focus {
     background-color: #404bbf;
 }
-
-.team-icon-link:focus {
-    fill: #404BBF;
-}
-
 
 /* section four */
 
@@ -483,12 +471,12 @@ a {
     align-items: center;
     justify-content: center;
     background-color: var(--brand-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-images-link:hover,
 .footer-images-link:focus {
-    background-color: #31D0AA
+    background-color: #31D0AA;
 }
 
 
