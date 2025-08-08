@@ -336,7 +336,7 @@ a {
 }
 
 .team-icon-link:focus {
-    background-color: var#404bbf;
+    fill: #404bbf;
 }
 
 
@@ -502,7 +502,7 @@ a {
 }
 
 .footer-list-icon:focus {
-    background-color: #31D0AA;
+    fill: #31D0AA;
 }
 
 .footer-images {
