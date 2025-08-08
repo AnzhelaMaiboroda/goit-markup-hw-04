@@ -331,7 +331,10 @@ a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-link:hover,
+.team-icon-link:hover {
+    background-color: #404bbf;
+}
+
 .team-icon-link:focus {
     background-color: #404bbf;
 }
@@ -470,15 +473,17 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #404bbf;
+    background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-images-link {
-    fill: #4d5ae5;
-}
+
 
 .footer-images-link:hover {
+    background-color: #31D0AA;
+}
+
+.footer-images-link:focus {
     background-color: #31D0AA;
 }
 
