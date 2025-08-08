@@ -331,9 +331,6 @@ a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-link:hover {
-    background-color: #404bbf;
-}
 
 :root {
     --brand-color: #4d5ae5;
@@ -342,8 +339,12 @@ a {
 }
 
 
+.team-icon-link:hover {
+    background-color: #404bbf;
+}
+
 .team-icon-link:focus {
-    fill: #404bbf;
+    fill: #404BBF;
 }
 
 
@@ -390,7 +391,7 @@ a {
     background-color: #4d5ae5;
     height: 100%;
     width: 100%;
-
+    transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -487,7 +488,7 @@ a {
 
 .footer-images-link:hover,
 .footer-images-link:focus {
-    background-color: var(#31d0aa);
+    background-color: #31D0AA
 }
 
 
