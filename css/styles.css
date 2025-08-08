@@ -335,9 +335,14 @@ a {
     background-color: #404bbf;
 }
 
-.team-icon-link:focus {
+.team-page-icon:focus {
     background-color: #404bbf;
 }
+
+/* .team-icon-link:focus {
+    background-color: #404bbf;
+} */
+
 
 /* section four */
 
@@ -483,9 +488,9 @@ a {
     background-color: #31D0AA;
 }
 
-.footer-images-link:focus {
+/* .footer-images-link:focus {
     background-color: #31D0AA;
-}
+} */
 
 .footer-list-icon {
     display: flex;
@@ -496,6 +501,10 @@ a {
     width: 208px;
     height: 40px;
     padding-top: 16px;
+}
+
+.footer-list-icon:focus {
+    background-color: #31D0AA;
 }
 
 .footer-images {
