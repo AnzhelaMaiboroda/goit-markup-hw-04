@@ -335,13 +335,10 @@ a {
     background-color: #404bbf;
 }
 
-.team-page-icon:focus {
-    background-color: #404bbf;
+.team-icon-link:focus {
+    background-color: var#404bbf;
 }
 
-/* .team-icon-link:focus {
-    background-color: #404bbf;
-} */
 
 
 /* section four */
@@ -488,9 +485,10 @@ a {
     background-color: #31D0AA;
 }
 
-/* .footer-images-link:focus {
-    background-color: #31D0AA;
-} */
+.footer-images-link:focus {
+    background-color: var#31d0aa;
+    ;
+}
 
 .footer-list-icon {
     display: flex;
