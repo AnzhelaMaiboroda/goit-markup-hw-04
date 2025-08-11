@@ -307,6 +307,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-list-icon {
@@ -366,7 +367,6 @@ a {
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0%);
 }
@@ -461,13 +461,6 @@ a {
 
 }
 
-.media-container {
-    width: 208px;
-    height: 80px;
-    margin: auto;
-    align-items: baseline;
-
-}
 
 .footer-media-title {
     font-weight: 500;
@@ -504,13 +497,8 @@ a {
 
 .footer-list-icon {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 16px;
-    width: 208px;
-    height: 40px;
-    padding-top: 16px;
+
 }
 
 .footer-list-icon:focus {
@@ -520,7 +508,8 @@ a {
 .footer-images {
     width: 40px;
     height: 40px;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .team-page-icon {
